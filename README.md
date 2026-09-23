@@ -26,12 +26,21 @@ This will allow you to make commits on any repository you work on, on your compu
 1. When creating a new branch, you will first have to be on the repository you want to create a branch on.
 2. Once in the repository, you can create a new branch using the command "git checkout -b BranchName"
 3. This command will create a new branch and allow you to work on seperate stuff without being in the same branch.
-## Step 4: Pulling and Pushing from Git Bash
+## Step 5: Pulling and Pushing from Git Bash
 1. When you are working in Git Hub specifically, it won't be saved to your cloned repository on your computer. This is where the pulling command comes into play.
-2. When you want to send your edits made on Git Hub to your computer, use the command "git push origin main" on Git Bash.
-3. This will pull on edits made on Git Hub to Git Bash and the cloned repository.
+2. When you want to send your edits made on Git Hub to your computer, use the command "git pull origin main" on Git Bash.
+3. This will fetch the edits made on Git Hub to Git Bash and the cloned repository.
 4. To push edits made on Git Bash to Git Hub, you will use the push command.
 5. First make an edit to your README.md file using the nano feature.
 6. Once any edit has been made to the README.md file, type "git add README.md" to add the edited file.
 7. Once that is done, you will have to commit your changes by using the command "git commit -m 'Description of edit'". The commit will help Git Hub know what edits were made to the file.
 8. Finally you can push the edit to github by using the command "git push origin RepoBranchName"
+## Step 6: Merge and Merge Conflict
+1. When merging branches, this you merge all edits made on the seperate branches to the main branch on your repository.
+2. Switch to your main branch by using "git checkout main".
+3. Once there, make sure you have the up to date edits on Git Hub by using the pull command.
+4. Next you type the command "git merge RepoBranchName". This will merge the specific branch you mention to the main branch.
+5. Usually everything will go smooth if you do this, but sometimes a merge conflict will occur.
+6. A merge conflict occurs when two branches made the same edit to the same line in a file. This will cause a flag to be raised because it doesn't know what edit to save.
+7. To fix this, you will have to go to the file that is flagged and chose what edit to save. Erase the flag markers (<<<<<<< HEAD >>>>>>>) and save the now fixed file.
+8. Finally add the file to the main branch "git add ...", make a commit "git commit -m '...'", and finally push the fix to Git Hub (git push origin main).
