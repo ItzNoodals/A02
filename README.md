@@ -1,6 +1,6 @@
 # Part 1: How to Setup your Github Account and Connect with Git (Git Bash)
 ## Step 1: Account Creation and Repository Setup
-1. Go to github.com and create a free account with any email of your choice.
+1. Go to https://github.com/ and create a free account with any email of your choice.
 2. When you account has been made, you will be sent to your dashboard where you can see a green plus (+) button.
 3. The green plus (+) button will allow you to create a repository with a name of your choice. For example "First Repo".
 4. They will then ask if you will like the repository public or private. Public allows for anyone to see, while private allows for you to see only unless you invite someone.
@@ -16,4 +16,11 @@ This will allow you to make commits on any repository you work on, on your compu
 4. Use the command "git config --global init.defaultBranch main" to allign with Git Hub standards
 5. Once that is all done, you can now start to clone your first repository.
 ## Step 3: Cloming Your Repository
+1. On your Git Hub dashboard, select the repository you just created to go to its repository page.
+2. Click on the green button called "Code" and copy the HTTPS URL of your repository.
+3. Once that is copied, open up Git Bash and type the command "git clone https://github.com/UserName/RepoName/"
+4. This will clone your Git Hub repository onto your computer.
+5. To move into your repository, type the command "cd RepoName"
+6. You have now cloned your repository and can start to work on it within Git Bash.
+## Step 4: Creating a New Branch
 
