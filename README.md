@@ -15,7 +15,7 @@ git config --global user.email "your.email@example.com"
 This will allow you to make commits on any repository you work on, on your computer.
 4. Use the command "git config --global init.defaultBranch main" to allign with Git Hub standards
 5. Once that is all done, you can now start to clone your first repository.
-## Step 3: Cloming Your Repository
+## Step 3: Cloming Your Remote Repository
 1. On your Git Hub dashboard, select the repository you just created to go to its repository page.
 2. Click on the green button called "Code" and copy the HTTPS URL of your repository.
 3. Once that is copied, open up Git Bash and type the command "git clone https://github.com/UserName/RepoName/"
@@ -23,4 +23,15 @@ This will allow you to make commits on any repository you work on, on your compu
 5. To move into your repository, type the command "cd RepoName"
 6. You have now cloned your repository and can start to work on it within Git Bash.
 ## Step 4: Creating a New Branch
-
+1. When creating a new branch, you will first have to be on the repository you want to create a branch on.
+2. Once in the repository, you can create a new branch using the command "git checkout -b BranchName"
+3. This command will create a new branch and allow you to work on seperate stuff without being in the same branch.
+## Step 4: Pulling and Pushing from Git Bash
+1. When you are working in Git Hub specifically, it won't be saved to your cloned repository on your computer. This is where the pulling command comes into play.
+2. When you want to send your edits made on Git Hub to your computer, use the command "git push origin main" on Git Bash.
+3. This will pull on edits made on Git Hub to Git Bash and the cloned repository.
+4. To push edits made on Git Bash to Git Hub, you will use the push command.
+5. First make an edit to your README.md file using the nano feature.
+6. Once any edit has been made to the README.md file, type "git add README.md" to add the edited file.
+7. Once that is done, you will have to commit your changes by using the command "git commit -m 'Description of edit'". The commit will help Git Hub know what edits were made to the file.
+8. Finally you can push the edit to github by using the command "git push origin RepoBranchName"
