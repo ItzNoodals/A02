@@ -44,3 +44,16 @@ This will allow you to make commits on any repository you work on, on your compu
 6. A merge conflict occurs when two branches made the same edit to the same line in a file. This will cause a flag to be raised because it doesn't know what edit to save.
 7. To fix this, you will have to go to the file that is flagged and chose what edit to save. Erase the flag markers (<<<<<<< HEAD >>>>>>>) and save the now fixed file.
 8. Finally add the file to the main branch "git add ...", make a commit "git commit -m '...'", and finally push the fix to Git Hub (git push origin main).
+# Part 2: Glossary of Major Terms Used
+1. **Brnach**: A parallel version of a repository that diverges from the main line of development, allowing you to work on features or fixes independently without affecting the primary project codebase.
+2. **Clone**: The action of downloading a complete copy of an existing remote repository from a hosting platform like GitHub onto your local machine, preserving its full history and structural tracking.
+3. **Commit**: A saved snapshot of staged file modifications stored directly within your local repository's history, acting like a permanent checkpoint marked by a descriptive log message.
+4. **Fetch**: A command that downloads new data, branch updates, and commit histories from a remote repository to your local system without merging or modifying your active working files.
+5. **Git**: A free, open-source, distributed version control system designed to run locally on your computer to track changes in source code over time.
+6. **Git Hub**: A cloud-based web platform that hosts Git repositories online, providing collaboration tools, graphical interfaces, pull requests, and project management capabilities.
+7. **Merge**: The process of taking the history and changes from one development branch and combining them directly into another active branch.
+8. **Merge Conflict**: A development event that occurs when Git cannot automatically determine the correct code to keep because two separate commits modified the exact same lines of a file, requiring manual developer intervention to resolve.
+9. **Push**: The command used to upload your local repository commits directly to a remote hosting platform like GitHub so they can be viewed or shared by others.
+10. **Pull**: A single command that fetches data from a remote server and immediately integrates/merges it into your current local working branch to ensure you have the latest updates.
+11. **Remote**: The version of your project repository hosted on the internet or a shared network (such as on GitHub) rather than stored locally on your physical machine.
+12. **Repository**: The foundational project folder or directory tracked by Git that stores all project files, resource configurations, and the complete chronological history of every adjustment made.
