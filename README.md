@@ -44,7 +44,13 @@ This will allow you to make commits on any repository you work on, on your compu
 6. A merge conflict occurs when two branches made the same edit to the same line in a file. This will cause a flag to be raised because it doesn't know what edit to save.
 7. To fix this, you will have to go to the file that is flagged and chose what edit to save. Erase the flag markers (<<<<<<< HEAD >>>>>>>) and save the now fixed file.
 8. Finally add the file to the main branch "git add ...", make a commit "git commit -m '...'", and finally push the fix to Git Hub (git push origin main).
-# Part 2: Glossary of Major Terms Used
+# Part 2: Connect Git Hub and Git to Virtual Studio Code (VS Code)
+## Step 1: Downloading and Connecting VS Code to Git Hub and Git Bash
+1. Go to https://code.visualstudio.com/download?_exp_download=d53503e735 and download VS Code based on your respective system
+2. Once downloaded connect login using your Git Hub account.
+3. Once you login in, you can then open up the folders where your cloned repositories are located.
+4. To use Git Bash in VS Code, open a new terminal and click on the plus button (+) with the down arrow head. This will open up the menu to where you can select Git Bash as the main command program. This will allow you to know edit fies on vs code and make any commands all on one application.
+# Part 3: Glossary of Major Terms Used
 1. **Branch**: A parallel version of a repository that diverges from the main line of development, allowing you to work on features or fixes independently without affecting the primary project codebase.
 2. **Clone**: The action of downloading a complete copy of an existing remote repository from a hosting platform like GitHub onto your local machine, preserving its full history and structural tracking.
 3. **Commit**: A saved snapshot of staged file modifications stored directly within your local repository's history, acting like a permanent checkpoint marked by a descriptive log message.
