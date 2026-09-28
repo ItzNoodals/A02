@@ -49,7 +49,7 @@ This will allow you to make commits on any repository you work on, on your compu
 1. Go to https://code.visualstudio.com/download?_exp_download=d53503e735 and download VS Code based on your respective system
 2. Once downloaded connect login using your Git Hub account.
 3. Once you login in, you can then open up the folders where your cloned repositories are located.
-4. To use Git Bash in VS Code, open a new terminal and click on the plus button (+) with the down arrow head. This will open up the menu to where you can select Git Bash as the main command program. This will allow you to know edit fies on vs code and make any commands all on one application.
+4. To use Git Bash in VS Code, open a new terminal and click on the plus button (+) with the down arrow head. This will open up the menu to where you can select Git Bash as the main command program. This will allow you to know edit files on vs code and make all commands all on one application.
 # Part 3: Glossary of Major Terms Used
 1. **Branch**: A parallel version of a repository that diverges from the main line of development, allowing you to work on features or fixes independently without affecting the primary project codebase.
 2. **Clone**: The action of downloading a complete copy of an existing remote repository from a hosting platform like GitHub onto your local machine, preserving its full history and structural tracking.
