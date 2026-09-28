@@ -15,7 +15,7 @@ git config --global user.email "your.email@example.com"
 This will allow you to make commits on any repository you work on, on your computer.
 4. Use the command "git config --global init.defaultBranch main" to allign with Git Hub standards
 5. Once that is all done, you can now start to clone your first repository.
-## Step 3: Cloming Your Remote Repository
+## Step 3: Cloning Your Remote Repository
 1. On your Git Hub dashboard, select the repository you just created to go to its repository page.
 2. Click on the green button called "Code" and copy the HTTPS URL of your repository.
 3. Once that is copied, open up Git Bash and type the command "git clone https://github.com/UserName/RepoName/"
